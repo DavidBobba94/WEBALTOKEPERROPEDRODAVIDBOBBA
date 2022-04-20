@@ -1,36 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlToke Perro</title>
+    <link rel="shortcut icon" href="../Img/ATP.png">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link rel="stylesheet" href="../css/custom.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AlToke Perro</title>
-  <link rel="stylesheet" href="../style.css">
-  <link rel="shortcut icon" href="Img/ATP.png">
+    <body class="bg-danger">
 
-</head>
+      <div class="container">
 
-<body>
-  <header>
-    <a id="logo" href="../index.html"><img src="../Img/ATP.png" alt="logoatp" width="200" height="200" class="logoatp"></a>
-  
-      <ul class="lista">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="elclub.html">El Club</a></li>
-        <li><a href="plantilla.html">Plantilla</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdO2FEJKZpBv2f7QVrTPXhbwOZMxgGhAAeDhgLP0Hkpyt_VBQ/viewform?usp=sf_link">Veni a probarte</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </header>
-    
-  <form action="/ruta-destino" method="get" enctype="" class="formulario">
-    <h3>Dejanos tu mensaje</h3>
-    <input placeholder="Mail o Telefono de contacto" type="text"/>
-    <textarea name="Escribe aca tu mensaje" placeholder="Escribe aca tu mensaje" cols="30" rows="10"></textarea>
-    <button type="submit">Enviar</button>
-  </form> 
-     
-</body>
+        <div class="text-center mt-3 mb-3">
+          <a id="logo" href="../index.html"><img src="../Img/ATP.png" alt="Logo ATP" height="200" width="200"></a>
+        </div>
 
-</html>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item fs-3 p-3">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item fs-3 p-3">
+                  <a class="nav-link" href="elclub.html">El Club</a>
+                </li>
+                <li class="nav-item fs-3 p-3">
+                  <a class="nav-link" href="plantilla.html">Plantilla</a>
+                </li>
+                <li class="nav-item fs-3 p-3">
+                  <a class="nav-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdO2FEJKZpBv2f7QVrTPXhbwOZMxgGhAAeDhgLP0Hkpyt_VBQ/viewform">Veni a probarte</a>
+                </li>
+                <li class="nav-item fs-3 p-3">
+                  <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="row">
+
+            <div class="col-md-6 offset-3">
+
+              <div class="card">
+                <div class="card-header">
+                  Contacto
+                </div>
+                <div class="card-body">
+                  <form>
+                    <div class="mb-3">
+                      <label class="form-label">Nombre y Apellido</label>
+                      <input type="text" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Mensaje</label>
+                      <textarea class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+          <footer class="text-center mt-3 mb-3 text-white fs-5">
+            Derechos reservados By SatanasPaez
+          </footer>
+        </div>
+
+        <a href="#top" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+          Subime AlToke
+        </a>
+
+      </div>
+  </body>
+
+  </html>

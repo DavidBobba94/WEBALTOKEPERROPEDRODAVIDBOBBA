@@ -29,17 +29,32 @@ body{
     justify-items: center;
 }
 
-.lista{
+#lista{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     font-style: oblique;
     font-size: 1cm;
     list-style: none;
+    animation: bounce
 }
 
+section ul li{
+    height: 150px;
+    transition: height 2s;
+}
 li a{
     color: white;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative;
+}
+
+@keyframes animacion {
+    0% {background: black;}
+    50% {background: whitesmoke;}
+    100% {background: white;}
 }
 
 .c3{
